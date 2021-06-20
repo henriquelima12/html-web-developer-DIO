@@ -1,0 +1,18 @@
+@media screen and (max-width: 600px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button{
+        margin-top: 5px;
+        width: 215px;
+        height: 50px;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .description{
+        width: 50%;
+    }
+}
